@@ -40,6 +40,7 @@ app.use(express.urlencoded({ extended: true }));
 //     sameSite: "lax",
 //   })
 // );
+app.set("trust proxy", 1);
 
 app.use(
   session({
