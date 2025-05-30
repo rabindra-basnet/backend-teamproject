@@ -24,7 +24,7 @@ import projectRoutes from "./routes/project.route";
 import taskRoutes from "./routes/task.route";
 
 const app = express();
-const BASE_PATH = config.BASE_PATH;
+const BASE_PATH = config.BASE_PATH || "api";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -74,7 +74,7 @@ app.use(morgan("combined", { stream: logger.stream as any }));
 }
 
 app.get(
-  `/${BASE_PATH}/health`,
+  `${BASE_PATH}/health`,
   asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
     // throw new BadRequestException(
     //   "This is a bad request",
