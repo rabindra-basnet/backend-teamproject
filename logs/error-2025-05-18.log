@@ -1,0 +1,314 @@
+2025-05-18 16:40:31 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:40:31 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:40:31 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:40:32 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:40:32 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:40:32 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:42:14 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:42:15 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:42:15 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:44 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:49 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:49 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:50 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:50 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:50 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:51 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:51 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:51:51 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:52:10 [[31merror[39m]: Error in verifyUserService {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:52:10 [[31merror[39m]: Local strategy verification failed {"email":"test@gmail.com","error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:52:10 [[31merror[39m]: Error during local login authentication {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:52:10 [[31merror[39m]: Error: Invalid email or password
+    at verifyUserService (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\services\auth.service.ts:208:13)
+    at Strategy._verify (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\config\passport.config.ts:61:22) {"method":"POST","url":"/api/auth/login"}
+2025-05-18 16:52:15 [[31merror[39m]: Error in verifyUserService {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:52:15 [[31merror[39m]: Local strategy verification failed {"email":"test@gmail.com","error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:52:15 [[31merror[39m]: Error during local login authentication {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:52:15 [[31merror[39m]: Error: Invalid email or password
+    at verifyUserService (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\services\auth.service.ts:208:13)
+    at Strategy._verify (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\config\passport.config.ts:61:22) {"method":"POST","url":"/api/auth/login"}
+2025-05-18 16:53:21 [[31merror[39m]: Error in verifyUserService {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:53:21 [[31merror[39m]: Local strategy verification failed {"email":"test123@gmail.com","error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:53:21 [[31merror[39m]: Error during local login authentication {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:53:21 [[31merror[39m]: Error: Invalid email or password
+    at verifyUserService (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\services\auth.service.ts:208:13)
+    at Strategy._verify (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\config\passport.config.ts:61:22) {"method":"POST","url":"/api/auth/login"}
+2025-05-18 16:53:23 [[31merror[39m]: Error in verifyUserService {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:53:23 [[31merror[39m]: Local strategy verification failed {"email":"test123@gmail.com","error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:53:23 [[31merror[39m]: Error during local login authentication {"error":{"statusCode":401,"errorCode":"ACCESS_UNAUTHORIZED"}}
+2025-05-18 16:53:23 [[31merror[39m]: Error: Invalid email or password
+    at verifyUserService (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\services\auth.service.ts:208:13)
+    at Strategy._verify (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\config\passport.config.ts:61:22) {"method":"POST","url":"/api/auth/login"}
+2025-05-18 16:53:55 [[31merror[39m]: Error in registerUserService {"error":{"statusCode":400,"errorCode":"VALIDATION_ERROR"}}
+2025-05-18 16:53:55 [[31merror[39m]: Error in POST /api/auth/register: Email already exists
+2025-05-18 16:53:55 [[31merror[39m]: Error: Email already exists
+    at registerUserService (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\services\auth.service.ts:114:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\auth.controller.ts:40:5
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"POST","url":"/api/auth/register"}
+2025-05-18 16:53:56 [[31merror[39m]: Error in registerUserService {"error":{"statusCode":400,"errorCode":"VALIDATION_ERROR"}}
+2025-05-18 16:53:56 [[31merror[39m]: Error in POST /api/auth/register: Email already exists
+2025-05-18 16:53:56 [[31merror[39m]: Error: Email already exists
+    at registerUserService (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\services\auth.service.ts:114:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\auth.controller.ts:40:5
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"POST","url":"/api/auth/register"}
+2025-05-18 16:56:27 [[31merror[39m]: Error in POST /api/project/workspace/682981ed791fb2537c6fde63/create: You do not have the necessary permissions to perform this action
+2025-05-18 16:56:27 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:32:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"POST","url":"/api/project/workspace/682981ed791fb2537c6fde63/create"}
+2025-05-18 16:56:54 [[31merror[39m]: Error in POST /api/project/workspace/682981ed791fb2537c6fde63/create: You do not have the necessary permissions to perform this action
+2025-05-18 16:56:54 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:32:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"POST","url":"/api/project/workspace/682981ed791fb2537c6fde63/create"}
+2025-05-18 16:58:22 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:58:22 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:58:22 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:58:22 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:58:23 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-18 16:58:23 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}

@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/rabindra/Desktop/team-project-saas/backend/logs/.fca7f26dbcb3bdf0062db9f9502094e24616b4c4-audit.json",
+    "files": [
+        {
+            "date": 1748618792121,
+            "name": "/home/rabindra/Desktop/team-project-saas/backend/logs/combined-2025-05-30.log",
+            "hash": "ba40653f84c2c731f47cab5a833d2a91e1df9a35722b8b08188652a2546ecdb9"
+        }
+    ],
+    "hashType": "sha256"
+}

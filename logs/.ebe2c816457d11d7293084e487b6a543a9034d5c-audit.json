@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\User\\Desktop\\parent\\B2B_TeamManagement_SAAS\\backend\\logs\\.ebe2c816457d11d7293084e487b6a543a9034d5c-audit.json",
+    "files": [
+        {
+            "date": 1747564745713,
+            "name": "C:\\Users\\User\\Desktop\\parent\\B2B_TeamManagement_SAAS\\backend\\logs\\combined-2025-05-18.log",
+            "hash": "e3cba280019ffa1809f680e5c272f1bae22a1199ce66f13bd01b011e20b290c5"
+        },
+        {
+            "date": 1748601594870,
+            "name": "C:\\Users\\User\\Desktop\\parent\\B2B_TeamManagement_SAAS\\backend\\logs\\combined-2025-05-30.log",
+            "hash": "f146582edff1dd1f9dd2e372135d84cf1761a63a1e594a4417ddc416416568d4"
+        }
+    ],
+    "hashType": "sha256"
+}

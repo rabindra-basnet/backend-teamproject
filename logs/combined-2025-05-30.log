@@ -1,0 +1,535 @@
+2025-05-30 16:25:01 [[32minfo[39m]: Connected to Mongo database {"host":"ac-dmzfsr9-shard-00-00.nrdxojl.mongodb.net"}
+2025-05-30 16:25:01 [[32minfo[39m]: Server running at http://localhost:8000 in development mode
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:16 [[32minfo[39m]: Google OAuth profile received {"profile":{"id":"117566417796162190044","displayName":"Rabindra Basnet","name":{"familyName":"Basnet","givenName":"Rabindra"},"emails":[{"value":"rabindraabasnet@gmail.com","verified":true}],"photos":[{"value":"https://lh3.googleusercontent.com/a-/ALV-UjX_M72dMPh9ulxs63iBvpacu3vX_gxgLpRa3FfcVVdI-ZnM5BGSJ0KlSgFSegGj0zfNkHEF7uTNwKwoEJ_eNSZ8dLAhH84GMDymDeMg0o81YqGXBnQEVRgJYtHLCO5x97haFpzTRmlw2LFJCI3KAlbx3zaZOzqMkEXLLerAvooPFNL7mIktVTyvUJyOAJH8Seq6u7jdiEkkuTciywxhqApRF-bhbsAi-VDTV4DsWCsVGqQRPQ9jG1hG2PqikCGURZjy49ecxDDqRly4j26QQNz1QYPYeNP5p_0LBy4N2itUh9iiVPjYqWFf-Z-YrmaxwH_WiofZZD7eCxnnqVOFXfC_7y9A-9DDmz2vYrOB1vcjdaeMdAm1y4JWAQsRt2DX8EnQREWgqQd073wyrSE_26ziexfOOlwEPFgfalpSlO5mZuRShJZoLbU-l1iXTyRO78fugfBh8FPAiJmxIbKxRsi-Yr59RKkwg02gNVZM2e0pyclZijOFzwx9FicVakzmQN4qsBVLfrvgDElUxW9I6AyaCYU6IgSdLgEhKdIPrdNsJqjlu5TenJ_583ghvgNXTt9agAPdH_p7_q1LFotfhllr4FHOYd2XjhFv94QTuAz3kciYu8ac9CVJ3fpYs83q8PGn2yeQvJT3_cemDRFRnh3AIvAO0FCtjcisI51ytARmAqXbBSJFAID0iLNDTbwTkKzmQgHeqI3SLTGpaJbckG0oRd8g7bp3pbA5q5j6sIYFI5IrVvzoigB6SeySpXKrwG4IYs92A7t3NbtsbvLQyRPedknAmeMKoHdYwvTKIIew2KAdpsN4owATC9wbdCMQlmG2ZQ3WQnme6Ayasdb91uAmpvrHrlHpdN_M9dpCslX85DSFUDqGGLU9eCNjAB8sZnrMUXAUCGW4KpstlboKIyY7KIgjFwqJB4sJjuGEovwJXIImIk-V3GpAyOiY792UGC3NeCAMhIGgBlYhADOSM8br_SmKsg=s96-c"}],"provider":"google","_raw":"{\n  \"sub\": \"117566417796162190044\",\n  \"name\": \"Rabindra Basnet\",\n  \"given_name\": \"Rabindra\",\n  \"family_name\": \"Basnet\",\n  \"picture\": \"https://lh3.googleusercontent.com/a-/ALV-UjX_M72dMPh9ulxs63iBvpacu3vX_gxgLpRa3FfcVVdI-ZnM5BGSJ0KlSgFSegGj0zfNkHEF7uTNwKwoEJ_eNSZ8dLAhH84GMDymDeMg0o81YqGXBnQEVRgJYtHLCO5x97haFpzTRmlw2LFJCI3KAlbx3zaZOzqMkEXLLerAvooPFNL7mIktVTyvUJyOAJH8Seq6u7jdiEkkuTciywxhqApRF-bhbsAi-VDTV4DsWCsVGqQRPQ9jG1hG2PqikCGURZjy49ecxDDqRly4j26QQNz1QYPYeNP5p_0LBy4N2itUh9iiVPjYqWFf-Z-YrmaxwH_WiofZZD7eCxnnqVOFXfC_7y9A-9DDmz2vYrOB1vcjdaeMdAm1y4JWAQsRt2DX8EnQREWgqQd073wyrSE_26ziexfOOlwEPFgfalpSlO5mZuRShJZoLbU-l1iXTyRO78fugfBh8FPAiJmxIbKxRsi-Yr59RKkwg02gNVZM2e0pyclZijOFzwx9FicVakzmQN4qsBVLfrvgDElUxW9I6AyaCYU6IgSdLgEhKdIPrdNsJqjlu5TenJ_583ghvgNXTt9agAPdH_p7_q1LFotfhllr4FHOYd2XjhFv94QTuAz3kciYu8ac9CVJ3fpYs83q8PGn2yeQvJT3_cemDRFRnh3AIvAO0FCtjcisI51ytARmAqXbBSJFAID0iLNDTbwTkKzmQgHeqI3SLTGpaJbckG0oRd8g7bp3pbA5q5j6sIYFI5IrVvzoigB6SeySpXKrwG4IYs92A7t3NbtsbvLQyRPedknAmeMKoHdYwvTKIIew2KAdpsN4owATC9wbdCMQlmG2ZQ3WQnme6Ayasdb91uAmpvrHrlHpdN_M9dpCslX85DSFUDqGGLU9eCNjAB8sZnrMUXAUCGW4KpstlboKIyY7KIgjFwqJB4sJjuGEovwJXIImIk-V3GpAyOiY792UGC3NeCAMhIGgBlYhADOSM8br_SmKsg\\u003ds96-c\",\n  \"email\": \"rabindraabasnet@gmail.com\",\n  \"email_verified\": true\n}","_json":{"sub":"117566417796162190044","name":"Rabindra Basnet","given_name":"Rabindra","family_name":"Basnet","picture":"https://lh3.googleusercontent.com/a-/ALV-UjX_M72dMPh9ulxs63iBvpacu3vX_gxgLpRa3FfcVVdI-ZnM5BGSJ0KlSgFSegGj0zfNkHEF7uTNwKwoEJ_eNSZ8dLAhH84GMDymDeMg0o81YqGXBnQEVRgJYtHLCO5x97haFpzTRmlw2LFJCI3KAlbx3zaZOzqMkEXLLerAvooPFNL7mIktVTyvUJyOAJH8Seq6u7jdiEkkuTciywxhqApRF-bhbsAi-VDTV4DsWCsVGqQRPQ9jG1hG2PqikCGURZjy49ecxDDqRly4j26QQNz1QYPYeNP5p_0LBy4N2itUh9iiVPjYqWFf-Z-YrmaxwH_WiofZZD7eCxnnqVOFXfC_7y9A-9DDmz2vYrOB1vcjdaeMdAm1y4JWAQsRt2DX8EnQREWgqQd073wyrSE_26ziexfOOlwEPFgfalpSlO5mZuRShJZoLbU-l1iXTyRO78fugfBh8FPAiJmxIbKxRsi-Yr59RKkwg02gNVZM2e0pyclZijOFzwx9FicVakzmQN4qsBVLfrvgDElUxW9I6AyaCYU6IgSdLgEhKdIPrdNsJqjlu5TenJ_583ghvgNXTt9agAPdH_p7_q1LFotfhllr4FHOYd2XjhFv94QTuAz3kciYu8ac9CVJ3fpYs83q8PGn2yeQvJT3_cemDRFRnh3AIvAO0FCtjcisI51ytARmAqXbBSJFAID0iLNDTbwTkKzmQgHeqI3SLTGpaJbckG0oRd8g7bp3pbA5q5j6sIYFI5IrVvzoigB6SeySpXKrwG4IYs92A7t3NbtsbvLQyRPedknAmeMKoHdYwvTKIIew2KAdpsN4owATC9wbdCMQlmG2ZQ3WQnme6Ayasdb91uAmpvrHrlHpdN_M9dpCslX85DSFUDqGGLU9eCNjAB8sZnrMUXAUCGW4KpstlboKIyY7KIgjFwqJB4sJjuGEovwJXIImIk-V3GpAyOiY792UGC3NeCAMhIGgBlYhADOSM8br_SmKsg=s96-c","email":"rabindraabasnet@gmail.com","email_verified":true}},"googleId":"117566417796162190044"}
+2025-05-30 16:25:16 [[32minfo[39m]: Started MongoDB session for loginOrCreateAccountService {"provider":"GOOGLE","email":"rabindraabasnet@gmail.com"}
+2025-05-30 16:25:16 [[32minfo[39m]: User found, skipping creation {"email":"rabindraabasnet@gmail.com","userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:16 [[32minfo[39m]: MongoDB transaction committed
+2025-05-30 16:25:16 [[32minfo[39m]: MongoDB session ended
+2025-05-30 16:25:16 [[32minfo[39m]: User logged in or created via Google OAuth {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:16 [[32minfo[39m]: Serializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:16 [[32minfo[39m]: Google login callback success {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c"}
+2025-05-30 16:25:17 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:17 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetching all workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1"}
+2025-05-30 16:25:18 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/workspace/analytics/68297effb356f9acf8483c9c: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\workspace.controller.ts:102:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/workspace/analytics/68297effb356f9acf8483c9c"}
+2025-05-30 16:25:18 [[32minfo[39m]: Found 1 workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 16:25:18 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched all their workspaces
+2025-05-30 16:25:18 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1"}
+2025-05-30 16:25:19 [[32minfo[39m]: Fetching workspace by id: 68297effb356f9acf8483c9c
+2025-05-30 16:25:19 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched workspace 68297effb356f9acf8483c9c
+2025-05-30 17:32:39 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:39 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:39 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 17:32:40 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 17:32:40 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:40 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetching all workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:41 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 17:32:41 [[31merror[39m]: Error in GET /api/workspace/analytics/68297effb356f9acf8483c9c: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:41 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\workspace.controller.ts:102:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/workspace/analytics/68297effb356f9acf8483c9c"}
+2025-05-30 17:32:41 [[32minfo[39m]: Found 1 workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 17:32:41 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched all their workspaces
+2025-05-30 17:32:41 [[32minfo[39m]: Fetching workspace by id: 68297effb356f9acf8483c9c
+2025-05-30 17:32:41 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:41 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched workspace 68297effb356f9acf8483c9c
+2025-05-30 17:32:41 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 17:32:41 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:41 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1"}
+2025-05-30 17:33:01 [[32minfo[39m]: Gracefully shutting down...
+2025-05-30 21:11:33 [[32minfo[39m]: Connected to Mongo database {"host":"ac-dmzfsr9-shard-00-01.nrdxojl.mongodb.net"}
+2025-05-30 21:11:33 [[32minfo[39m]: Server running at http://localhost:8000 in development mode
+2025-05-30 21:12:16 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:12:16 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:12:20 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:12:20 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:14:01 [[32minfo[39m]: Gracefully shutting down...
+2025-05-30 21:14:08 [[32minfo[39m]: Connected to Mongo database {"host":"ac-dmzfsr9-shard-00-01.nrdxojl.mongodb.net"}
+2025-05-30 21:14:08 [[32minfo[39m]: Server running at http://localhost:8000 in development mode
+2025-05-30 21:14:12 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:14:12 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:14:51 [[32minfo[39m]: Gracefully shutting down...
+2025-05-30 21:15:06 [[32minfo[39m]: Connected to Mongo database {"host":"ac-dmzfsr9-shard-00-01.nrdxojl.mongodb.net"}
+2025-05-30 21:15:06 [[32minfo[39m]: Server running at http://localhost:8000 in development mode
+2025-05-30 21:15:10 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:15:10 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:16:35 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:16:35 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:16:35 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:16:43 [[32minfo[39m]: Google OAuth profile received {"profile":{"id":"118395333178878849480","displayName":"Rabindra Basnet","name":{"familyName":"Basnet","givenName":"Rabindra"},"emails":[{"value":"rabindrabasnet82@gmail.com","verified":true}],"photos":[{"value":"https://lh3.googleusercontent.com/a/ACg8ocJS208kuZVY2biQYNfmwcjr9VYM36V7HUr7mpT17VrvnBQ39oUrGg=s96-c"}],"provider":"google","_raw":"{\n  \"sub\": \"118395333178878849480\",\n  \"name\": \"Rabindra Basnet\",\n  \"given_name\": \"Rabindra\",\n  \"family_name\": \"Basnet\",\n  \"picture\": \"https://lh3.googleusercontent.com/a/ACg8ocJS208kuZVY2biQYNfmwcjr9VYM36V7HUr7mpT17VrvnBQ39oUrGg\\u003ds96-c\",\n  \"email\": \"rabindrabasnet82@gmail.com\",\n  \"email_verified\": true\n}","_json":{"sub":"118395333178878849480","name":"Rabindra Basnet","given_name":"Rabindra","family_name":"Basnet","picture":"https://lh3.googleusercontent.com/a/ACg8ocJS208kuZVY2biQYNfmwcjr9VYM36V7HUr7mpT17VrvnBQ39oUrGg=s96-c","email":"rabindrabasnet82@gmail.com","email_verified":true}},"googleId":"118395333178878849480"}
+2025-05-30 21:16:43 [[32minfo[39m]: Started MongoDB session for loginOrCreateAccountService {"provider":"GOOGLE","email":"rabindrabasnet82@gmail.com"}
+2025-05-30 21:16:43 [[32minfo[39m]: User found, skipping creation {"email":"rabindrabasnet82@gmail.com","userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: MongoDB transaction committed
+2025-05-30 21:16:43 [[32minfo[39m]: MongoDB session ended
+2025-05-30 21:16:43 [[32minfo[39m]: User logged in or created via Google OAuth {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Serializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Google login callback success {"userId":"682981ed791fb2537c6fde5f","workspaceId":"68298679263b2a28ccc9e465"}
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Fetch current user request {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: User fetched successfully {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Fetching all workspaces for user: 682981ed791fb2537c6fde5f
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"68298679263b2a28ccc9e465","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"68298679263b2a28ccc9e465","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:43 [[32minfo[39m]: Fetch current user request {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:44 [[32minfo[39m]: Found 2 workspaces for user: 682981ed791fb2537c6fde5f
+2025-05-30 21:16:44 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched all their workspaces
+2025-05-30 21:16:44 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:44 [[32minfo[39m]: Fetching workspace by id: 68298679263b2a28ccc9e465
+2025-05-30 21:16:44 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:44 [[32minfo[39m]: Fetching analytics for workspace: 68298679263b2a28ccc9e465
+2025-05-30 21:16:44 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"68298679263b2a28ccc9e465","totalCount":0,"pageSize":5,"pageNumber":1}
+2025-05-30 21:16:44 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched workspace 68298679263b2a28ccc9e465
+2025-05-30 21:16:44 [[32minfo[39m]: Workspace 68298679263b2a28ccc9e465 analytics: totalTasks=0, overdueTasks=0, completedTasks=0
+2025-05-30 21:16:44 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 68298679263b2a28ccc9e465
+2025-05-30 21:16:44 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:44 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"68298679263b2a28ccc9e465","totalCount":0,"pageSize":10,"pageNumber":1}
+2025-05-30 21:16:44 [[32minfo[39m]: User fetched successfully {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:47 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:47 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:16:47 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:47 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:47 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:16:47 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:48 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:48 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:48 [[32minfo[39m]: Fetching analytics for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:16:48 [[32minfo[39m]: Fetching workspace by id: 682981ed791fb2537c6fde63
+2025-05-30 21:16:48 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:48 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":5,"pageNumber":1}
+2025-05-30 21:16:48 [[32minfo[39m]: Workspace 682981ed791fb2537c6fde63 analytics: totalTasks=4, overdueTasks=4, completedTasks=0
+2025-05-30 21:16:48 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:16:48 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched workspace 682981ed791fb2537c6fde63
+2025-05-30 21:16:48 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":10,"pageNumber":1}
+2025-05-30 21:16:51 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:51 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:51 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:16:51 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:16:51 [[32minfo[39m]: Fetch all tasks request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","filters":{},"pagination":{"pageSize":10,"pageNumber":1}}
+2025-05-30 21:16:51 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:51 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:51 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:16:51 [[32minfo[39m]: Fetching members for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:16:51 [[32minfo[39m]: Tasks fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63"}
+2025-05-30 21:16:51 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":10,"pageNumber":1}
+2025-05-30 21:16:51 [[32minfo[39m]: Found 2 members and 3 roles in workspace 682981ed791fb2537c6fde63
+2025-05-30 21:16:51 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved members for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:17:37 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:37 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:37 [[32minfo[39m]: Fetching analytics for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:17:37 [[32minfo[39m]: Workspace 682981ed791fb2537c6fde63 analytics: totalTasks=4, overdueTasks=4, completedTasks=0
+2025-05-30 21:17:37 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:17:49 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:49 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:49 [[32minfo[39m]: Fetching workspace by id: 68298679263b2a28ccc9e465
+2025-05-30 21:17:49 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:49 [[32minfo[39m]: Fetching analytics for workspace: 68298679263b2a28ccc9e465
+2025-05-30 21:17:49 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched workspace 68298679263b2a28ccc9e465
+2025-05-30 21:17:49 [[32minfo[39m]: Workspace 68298679263b2a28ccc9e465 analytics: totalTasks=0, overdueTasks=0, completedTasks=0
+2025-05-30 21:17:49 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 68298679263b2a28ccc9e465
+2025-05-30 21:17:51 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:51 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:51 [[32minfo[39m]: Fetching workspace by id: 682981ed791fb2537c6fde63
+2025-05-30 21:17:51 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:51 [[32minfo[39m]: Fetching analytics for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:17:51 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched workspace 682981ed791fb2537c6fde63
+2025-05-30 21:17:51 [[32minfo[39m]: Workspace 682981ed791fb2537c6fde63 analytics: totalTasks=4, overdueTasks=4, completedTasks=0
+2025-05-30 21:17:51 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:17:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:52 [[32minfo[39m]: Fetch project by id request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"6829bcdb4f8a304b9f3d4db0"}
+2025-05-30 21:17:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:52 [[32minfo[39m]: Fetch project analytics request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"6829bcdb4f8a304b9f3d4db0"}
+2025-05-30 21:17:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:52 [[32minfo[39m]: Fetch all tasks request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","filters":{"projectId":"6829bcdb4f8a304b9f3d4db0"},"pagination":{"pageSize":10,"pageNumber":1}}
+2025-05-30 21:17:52 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:52 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:52 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:52 [[32minfo[39m]: Project fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"6829bcdb4f8a304b9f3d4db0"}
+2025-05-30 21:17:52 [[32minfo[39m]: Project analytics fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"6829bcdb4f8a304b9f3d4db0"}
+2025-05-30 21:17:52 [[32minfo[39m]: Tasks fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63"}
+2025-05-30 21:17:53 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:53 [[32minfo[39m]: Fetch project by id request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:17:53 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:53 [[32minfo[39m]: Fetch project analytics request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:17:53 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:17:53 [[32minfo[39m]: Fetch all tasks request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","filters":{"projectId":"68298618263b2a28ccc9e40a"},"pagination":{"pageSize":10,"pageNumber":1}}
+2025-05-30 21:17:54 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:54 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:54 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:17:54 [[32minfo[39m]: Project fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:17:54 [[32minfo[39m]: Tasks fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63"}
+2025-05-30 21:17:54 [[32minfo[39m]: Project analytics fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:18:09 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:09 [[32minfo[39m]: Update project request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a","updateData":{"emoji":"🏓","name":"test","description":"test"}}
+2025-05-30 21:18:09 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:09 [[32minfo[39m]: Project updated {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:18:09 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:09 [[32minfo[39m]: Fetch project by id request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:18:09 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:09 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:18:09 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:09 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:18:10 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:10 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:10 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:10 [[32minfo[39m]: Project fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","projectId":"68298618263b2a28ccc9e40a"}
+2025-05-30 21:18:10 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":10,"pageNumber":1}
+2025-05-30 21:18:10 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":5,"pageNumber":1}
+2025-05-30 21:18:12 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:12 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:12 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:18:12 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:12 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:12 [[32minfo[39m]: Fetching analytics for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:18:13 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":10,"pageNumber":1}
+2025-05-30 21:18:13 [[32minfo[39m]: Workspace 682981ed791fb2537c6fde63 analytics: totalTasks=4, overdueTasks=4, completedTasks=0
+2025-05-30 21:18:13 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:18:45 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:45 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:45 [[32minfo[39m]: Fetching analytics for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:18:45 [[32minfo[39m]: Workspace 682981ed791fb2537c6fde63 analytics: totalTasks=4, overdueTasks=4, completedTasks=0
+2025-05-30 21:18:45 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Fetch current user request {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: User fetched successfully {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Fetching all workspaces for user: 682981ed791fb2537c6fde5f
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Fetch all projects request {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Fetch current user request {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Found 2 workspaces for user: 682981ed791fb2537c6fde5f
+2025-05-30 21:18:52 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched all their workspaces
+2025-05-30 21:18:52 [[32minfo[39m]: User fetched successfully {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:52 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:52 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:52 [[32minfo[39m]: Fetching analytics for workspace: 682981ed791fb2537c6fde63
+2025-05-30 21:18:52 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:18:53 [[32minfo[39m]: Fetching workspace by id: 682981ed791fb2537c6fde63
+2025-05-30 21:18:53 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":5,"pageNumber":1}
+2025-05-30 21:18:53 [[32minfo[39m]: Workspace 682981ed791fb2537c6fde63 analytics: totalTasks=4, overdueTasks=4, completedTasks=0
+2025-05-30 21:18:53 [[32minfo[39m]: User 682981ed791fb2537c6fde5f retrieved analytics for workspace 682981ed791fb2537c6fde63
+2025-05-30 21:18:53 [[32minfo[39m]: Projects fetched {"userId":"682981ed791fb2537c6fde5f","workspaceId":"682981ed791fb2537c6fde63","totalCount":2,"pageSize":10,"pageNumber":1}
+2025-05-30 21:18:53 [[32minfo[39m]: User 682981ed791fb2537c6fde5f fetched workspace 682981ed791fb2537c6fde63
+2025-05-30 21:18:58 [[32minfo[39m]: Deserializing user {"userId":"682981ed791fb2537c6fde5f"}
+2025-05-30 21:18:58 [[32minfo[39m]: User logged out successfully {}
+2025-05-30 21:18:58 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:18:58 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:18:58 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:07 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:07 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:07 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:14 [[32minfo[39m]: Google OAuth profile received {"profile":{"id":"106324780711640541558","displayName":"Rabindra Basnet","name":{"familyName":"Basnet","givenName":"Rabindra"},"emails":[{"value":"rabindrabasnet456@gmail.com","verified":true}],"photos":[{"value":"https://lh3.googleusercontent.com/a/ACg8ocL7D3_jvPiW-TtQnPBr2Vn6lNLO6jCBQAQXYRfmOcOmxzJ5GUCz=s96-c"}],"provider":"google","_raw":"{\n  \"sub\": \"106324780711640541558\",\n  \"name\": \"Rabindra Basnet\",\n  \"given_name\": \"Rabindra\",\n  \"family_name\": \"Basnet\",\n  \"picture\": \"https://lh3.googleusercontent.com/a/ACg8ocL7D3_jvPiW-TtQnPBr2Vn6lNLO6jCBQAQXYRfmOcOmxzJ5GUCz\\u003ds96-c\",\n  \"email\": \"rabindrabasnet456@gmail.com\",\n  \"email_verified\": true\n}","_json":{"sub":"106324780711640541558","name":"Rabindra Basnet","given_name":"Rabindra","family_name":"Basnet","picture":"https://lh3.googleusercontent.com/a/ACg8ocL7D3_jvPiW-TtQnPBr2Vn6lNLO6jCBQAQXYRfmOcOmxzJ5GUCz=s96-c","email":"rabindrabasnet456@gmail.com","email_verified":true}},"googleId":"106324780711640541558"}
+2025-05-30 21:19:14 [[32minfo[39m]: Started MongoDB session for loginOrCreateAccountService {"provider":"GOOGLE","email":"rabindrabasnet456@gmail.com"}
+2025-05-30 21:19:14 [[32minfo[39m]: No user found. Creating new user. {"email":"rabindrabasnet456@gmail.com","displayName":"Rabindra Basnet"}
+2025-05-30 21:19:14 [[32minfo[39m]: User created {"userId":"6839cff6a2159879148633ce","email":"rabindrabasnet456@gmail.com"}
+2025-05-30 21:19:14 [[32minfo[39m]: Account created {"userId":"6839cff6a2159879148633ce","provider":"GOOGLE","providerId":"106324780711640541558"}
+2025-05-30 21:19:14 [[32minfo[39m]: Workspace created {"workspaceId":"6839cff6a2159879148633d2","ownerId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:14 [[32minfo[39m]: Member created with OWNER role {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2"}
+2025-05-30 21:19:14 [[32minfo[39m]: Set user's currentWorkspace {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2"}
+2025-05-30 21:19:14 [[32minfo[39m]: MongoDB transaction committed
+2025-05-30 21:19:14 [[32minfo[39m]: MongoDB session ended
+2025-05-30 21:19:14 [[32minfo[39m]: User logged in or created via Google OAuth {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:14 [[32minfo[39m]: Serializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:14 [[32minfo[39m]: Google login callback success {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2"}
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Fetch current user request {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: User fetched successfully {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Fetching all workspaces for user: 6839cff6a2159879148633ce
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Fetch all projects request {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Fetch all projects request {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Fetch current user request {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Found 1 workspaces for user: 6839cff6a2159879148633ce
+2025-05-30 21:19:15 [[32minfo[39m]: User 6839cff6a2159879148633ce fetched all their workspaces
+2025-05-30 21:19:15 [[32minfo[39m]: User fetched successfully {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:19:15 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:19:15 [[32minfo[39m]: Fetching analytics for workspace: 6839cff6a2159879148633d2
+2025-05-30 21:19:15 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:19:15 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:19:15 [[32minfo[39m]: Fetching workspace by id: 6839cff6a2159879148633d2
+2025-05-30 21:19:15 [[32minfo[39m]: Projects fetched {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","totalCount":0,"pageSize":5,"pageNumber":1}
+2025-05-30 21:19:15 [[32minfo[39m]: Projects fetched {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","totalCount":0,"pageSize":10,"pageNumber":1}
+2025-05-30 21:19:15 [[32minfo[39m]: Workspace 6839cff6a2159879148633d2 analytics: totalTasks=0, overdueTasks=0, completedTasks=0
+2025-05-30 21:19:15 [[32minfo[39m]: User 6839cff6a2159879148633ce retrieved analytics for workspace 6839cff6a2159879148633d2
+2025-05-30 21:19:15 [[32minfo[39m]: User 6839cff6a2159879148633ce fetched workspace 6839cff6a2159879148633d2
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Fetch current user request {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: User fetched successfully {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Fetching all workspaces for user: 6839cff6a2159879148633ce
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Fetch all projects request {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Fetch all projects request {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Fetch current user request {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Found 1 workspaces for user: 6839cff6a2159879148633ce
+2025-05-30 21:20:19 [[32minfo[39m]: User 6839cff6a2159879148633ce fetched all their workspaces
+2025-05-30 21:20:19 [[32minfo[39m]: User fetched successfully {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:19 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:20:19 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:20:19 [[32minfo[39m]: Fetching analytics for workspace: 6839cff6a2159879148633d2
+2025-05-30 21:20:19 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:20:19 [[32minfo[39m]: Fetching workspace by id: 6839cff6a2159879148633d2
+2025-05-30 21:20:19 [[32minfo[39m]: Projects fetched {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","totalCount":0,"pageSize":5,"pageNumber":1}
+2025-05-30 21:20:19 [[32minfo[39m]: Projects fetched {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","totalCount":0,"pageSize":10,"pageNumber":1}
+2025-05-30 21:20:20 [[32minfo[39m]: Workspace 6839cff6a2159879148633d2 analytics: totalTasks=0, overdueTasks=0, completedTasks=0
+2025-05-30 21:20:20 [[32minfo[39m]: User 6839cff6a2159879148633ce retrieved analytics for workspace 6839cff6a2159879148633d2
+2025-05-30 21:20:20 [[32minfo[39m]: User 6839cff6a2159879148633ce fetched workspace 6839cff6a2159879148633d2
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Fetch current user request {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: User fetched successfully {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Fetching all workspaces for user: 6839cff6a2159879148633ce
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Fetch all projects request {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Fetch all projects request {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Fetch current user request {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Deserializing user {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Found 1 workspaces for user: 6839cff6a2159879148633ce
+2025-05-30 21:20:21 [[32minfo[39m]: User 6839cff6a2159879148633ce fetched all their workspaces
+2025-05-30 21:20:21 [[32minfo[39m]: User fetched successfully {"userId":"6839cff6a2159879148633ce"}
+2025-05-30 21:20:21 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:20:21 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:20:21 [[32minfo[39m]: Fetching analytics for workspace: 6839cff6a2159879148633d2
+2025-05-30 21:20:21 [[32minfo[39m]: Access granted for role: OWNER with permissions: CREATE_WORKSPACE, EDIT_WORKSPACE, DELETE_WORKSPACE, MANAGE_WORKSPACE_SETTINGS, ADD_MEMBER, CHANGE_MEMBER_ROLE, REMOVE_MEMBER, CREATE_PROJECT, EDIT_PROJECT, DELETE_PROJECT, CREATE_TASK, EDIT_TASK, DELETE_TASK, VIEW_ONLY
+2025-05-30 21:20:21 [[32minfo[39m]: Fetching workspace by id: 6839cff6a2159879148633d2
+2025-05-30 21:20:21 [[32minfo[39m]: Projects fetched {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","totalCount":0,"pageSize":5,"pageNumber":1}
+2025-05-30 21:20:21 [[32minfo[39m]: Projects fetched {"userId":"6839cff6a2159879148633ce","workspaceId":"6839cff6a2159879148633d2","totalCount":0,"pageSize":10,"pageNumber":1}
+2025-05-30 21:20:21 [[32minfo[39m]: Workspace 6839cff6a2159879148633d2 analytics: totalTasks=0, overdueTasks=0, completedTasks=0
+2025-05-30 21:20:21 [[32minfo[39m]: User 6839cff6a2159879148633ce retrieved analytics for workspace 6839cff6a2159879148633d2
+2025-05-30 21:20:21 [[32minfo[39m]: User 6839cff6a2159879148633ce fetched workspace 6839cff6a2159879148633d2
+2025-05-30 21:21:30 [[32minfo[39m]: Gracefully shutting down...

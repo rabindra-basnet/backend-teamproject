@@ -1,0 +1,216 @@
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1"}
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/workspace/analytics/68297effb356f9acf8483c9c: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\workspace.controller.ts:102:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/workspace/analytics/68297effb356f9acf8483c9c"}
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1"}
+2025-05-30 17:32:40 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:40 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1"}
+2025-05-30 17:32:41 [[31merror[39m]: Error in GET /api/workspace/analytics/68297effb356f9acf8483c9c: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:41 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\workspace.controller.ts:102:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/workspace/analytics/68297effb356f9acf8483c9c"}
+2025-05-30 17:32:41 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:41 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1"}
+2025-05-30 21:12:16 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:12:16 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:12:20 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:12:20 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:14:12 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:14:12 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:15:10 [[31merror[39m]: Error in GET /: This is a bad request
+2025-05-30 21:15:10 [[31merror[39m]: Error: This is a bad request
+    at /home/rabindra/Desktop/team-project-saas/backend/src/app.ts:80:11
+    at /home/rabindra/Desktop/team-project-saas/backend/src/middlewares/asyncHandler.middleware.ts:14:13
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5) {"method":"GET","url":"/"}
+2025-05-30 21:16:35 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:16:35 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:16:35 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:18:58 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:18:58 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:18:58 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:07 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:07 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 21:19:07 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (/home/rabindra/Desktop/team-project-saas/backend/src/middlewares/isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/rabindra/Desktop/team-project-saas/backend/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/rabindra/Desktop/team-project-saas/backend/node_modules/express/lib/router/index.js:286:9 {"method":"GET","url":"/api/user/current"}
