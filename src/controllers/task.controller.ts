@@ -93,7 +93,7 @@ export const getAllTasksController = asyncHandler(
 
     const result = await getAllTasksService(workspaceId, filters, pagination);
 
-    logger.info("Tasks fetched", { userId, workspaceId, totalCount: result.totalCount });
+    logger.info("Tasks fetched", { userId, workspaceId, totalCount: result.pagination.totalCount });
 
     return res.status(HTTPSTATUS.OK).json({
       message: "All tasks fetched successfully",

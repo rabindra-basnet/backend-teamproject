@@ -24,7 +24,7 @@ const developmentFormat = format.combine(
   })
 );
 
-const logger: Logger & { stream?: { write: (msg: string) => void } } = createLogger({
+const logger: Logger = createLogger({
   level: config.NODE_ENV === "production" ? "info" : "debug",
   format: config.NODE_ENV === "production" ? productionFormat : developmentFormat,
   transports: [
@@ -49,7 +49,7 @@ const logger: Logger & { stream?: { write: (msg: string) => void } } = createLog
 });
 
 // Morgan integration stream
-logger.stream = {
+(logger as any).stream = {
   write: (message: string) => {
     // Morgan adds newline, trim it
     logger.http(message.trim());

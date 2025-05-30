@@ -292,7 +292,11 @@ export const deleteWorkspaceService = async (
   } catch (error) {
     await session.abortTransaction();
     session.endSession();
-    logger.error(`Error deleting workspace ${workspaceId}: ${error.message}`);
+    if (error instanceof Error) {
+      logger.error(`Error deleting workspace ${workspaceId}: ${error.message}`);
+    } else {
+      logger.error(`Error deleting workspace ${workspaceId}: ${JSON.stringify(error)}`);
+    }
     throw error;
   }
 };

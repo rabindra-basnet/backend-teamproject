@@ -70,16 +70,16 @@ app.use(
 if (config.NODE_ENV === "development") {
   app.use(morgan("dev"));
 } else {
-  app.use(morgan("combined", { stream: logger.stream }));
+app.use(morgan("combined", { stream: logger.stream as any }));
 }
 
 app.get(
   `/${BASE_PATH}/health`,
   asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
-    throw new BadRequestException(
-      "This is a bad request",
-      ErrorCodeEnum.AUTH_INVALID_TOKEN
-    );
+    // throw new BadRequestException(
+    //   "This is a bad request",
+    //   ErrorCodeEnum.AUTH_INVALID_TOKEN
+    // );
     return res.status(HTTPSTATUS.OK).json({
       message: "Hello World! Connected to Task Management API",
     });

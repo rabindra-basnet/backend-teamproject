@@ -21,7 +21,7 @@ export const googleLoginCallback = asyncHandler(
     }
 
     logger.info("Google login callback success", {
-      userId: req.user?._id,
+      userId: req.user?._id as string,
       workspaceId: currentWorkspace,
     });
 
@@ -74,7 +74,7 @@ export const loginController = asyncHandler(
             return next(err);
           }
 
-          logger.info("User logged in successfully", { userId: user._id });
+          logger.info("User logged in successfully", { userId: user?._id });
 
           return res.status(HTTPSTATUS.OK).json({
             message: "Logged in successfully",

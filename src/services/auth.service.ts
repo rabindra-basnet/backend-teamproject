@@ -39,7 +39,7 @@ export const loginOrCreateAccountService = async (data: {
         profilePicture: picture || null,
       });
       await user.save({ session });
-      logger.info("User created", { userId: user._id.toString(), email });
+      logger.info("User created", { userId: user?._id as mongoose.Types.ObjectId, email });
 
       const account = new AccountModel({
         userId: user._id,
@@ -47,7 +47,7 @@ export const loginOrCreateAccountService = async (data: {
         providerId,
       });
       await account.save({ session });
-      logger.info("Account created", { userId: user._id.toString(), provider, providerId });
+      logger.info("Account created", { userId: user?._id as mongoose.Types.ObjectId, provider, providerId });
 
       const workspace = new WorkspaceModel({
         name: `My Workspace`,
@@ -55,7 +55,7 @@ export const loginOrCreateAccountService = async (data: {
         owner: user._id,
       });
       await workspace.save({ session });
-      logger.info("Workspace created", { workspaceId: workspace._id.toString(), ownerId: user._id.toString() });
+      logger.info("Workspace created", { workspaceId: workspace?._id as mongoose.Types.ObjectId, ownerId: user?._id as mongoose.Types.ObjectId });
 
       const ownerRole = await RoleModel.findOne({
         name: Roles.OWNER,
@@ -73,13 +73,13 @@ export const loginOrCreateAccountService = async (data: {
         joinedAt: new Date(),
       });
       await member.save({ session });
-      logger.info("Member created with OWNER role", { userId: user._id.toString(), workspaceId: workspace._id.toString() });
+      logger.info("Member created with OWNER role", { userId: user?._id as mongoose.Types.ObjectId, workspaceId: workspace?._id as mongoose.Types.ObjectId });
 
-      user.currentWorkspace = workspace._id as mongoose.Types.ObjectId;
+      user.currentWorkspace = workspace?._id as mongoose.Types.ObjectId;
       await user.save({ session });
-      logger.info("Set user's currentWorkspace", { userId: user._id.toString(), workspaceId: workspace._id.toString() });
+      logger.info("Set user's currentWorkspace", { userId: user?._id as mongoose.Types.ObjectId, workspaceId: workspace?._id as mongoose.Types.ObjectId });
     } else {
-      logger.info("User found, skipping creation", { email, userId: user._id.toString() });
+      logger.info("User found, skipping creation", { email, userId: user?._id as mongoose.Types.ObjectId });
     }
 
     await session.commitTransaction();
@@ -120,7 +120,7 @@ export const registerUserService = async (body: {
       password,
     });
     await user.save({ session });
-    logger.info("User registered", { userId: user._id.toString(), email });
+    logger.info("User registered", { userId: user._id as mongoose.Types.ObjectId, email });
 
     const account = new AccountModel({
       userId: user._id,
@@ -128,7 +128,7 @@ export const registerUserService = async (body: {
       providerId: email,
     });
     await account.save({ session });
-    logger.info("Account created", { userId: user._id.toString(), provider: ProviderEnum.EMAIL });
+    logger.info("Account created", { userId: user._id as mongoose.Types.ObjectId, provider: ProviderEnum.EMAIL });
 
     const workspace = new WorkspaceModel({
       name: `My Workspace`,
@@ -136,7 +136,7 @@ export const registerUserService = async (body: {
       owner: user._id,
     });
     await workspace.save({ session });
-    logger.info("Workspace created", { workspaceId: workspace._id.toString(), ownerId: user._id.toString() });
+    logger.info("Workspace created", { workspaceId: workspace._id as mongoose.Types.ObjectId, ownerId: user._id as mongoose.Types.ObjectId });
 
     const ownerRole = await RoleModel.findOne({
       name: Roles.OWNER,
@@ -154,11 +154,11 @@ export const registerUserService = async (body: {
       joinedAt: new Date(),
     });
     await member.save({ session });
-    logger.info("Member created with OWNER role", { userId: user._id.toString(), workspaceId: workspace._id.toString() });
+    logger.info("Member created with OWNER role", { userId: user._id as mongoose.Types.ObjectId, workspaceId: workspace._id as mongoose.Types.ObjectId });
 
     user.currentWorkspace = workspace._id as mongoose.Types.ObjectId;
     await user.save({ session });
-    logger.info("Set user's currentWorkspace", { userId: user._id.toString(), workspaceId: workspace._id.toString() });
+    logger.info("Set user's currentWorkspace", { userId: user._id as mongoose.Types.ObjectId, workspaceId: workspace._id as mongoose.Types.ObjectId });
 
     await session.commitTransaction();
     logger.info("MongoDB transaction committed");
@@ -198,17 +198,17 @@ export const verifyUserService = async ({
     const user = await UserModel.findById(account.userId);
 
     if (!user) {
-      logger.warn("User not found for account", { email, userId: account.userId.toString() });
+      logger.warn("User not found for account", { email, userId: account.userId as mongoose.Types.ObjectId });
       throw new NotFoundException("User not found for the given account");
     }
 
     const isMatch = await user.comparePassword(password);
     if (!isMatch) {
-      logger.warn("Invalid password attempt", { userId: user._id.toString() });
+      logger.warn("Invalid password attempt", { userId: user._id as mongoose.Types.ObjectId, email });
       throw new UnauthorizedException("Invalid email or password");
     }
 
-    logger.info("User verified successfully", { userId: user._id.toString() });
+    logger.info("User verified successfully", { userId: user?._id as mongoose.Types.ObjectId, email });
     return user.omitPassword();
   } catch (error) {
     logger.error("Error in verifyUserService", { error });

@@ -54,7 +54,7 @@ process.on("unhandledRejection", (reason) => {
 
 (async () => {
   const port = config.PORT;
-  const isPortAvailable = await checkPortAvailability(port);
+  const isPortAvailable = await checkPortAvailability(Number(port));
 
   if (!isPortAvailable) {
     logger.error(`Port ${port} is already in use.`);
