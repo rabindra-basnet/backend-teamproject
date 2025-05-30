@@ -1,7 +1,6 @@
 import "dotenv/config";
 import express, { NextFunction, Request, Response } from "express";
 import cors from "cors";
-import net from "net"
 import morgan from "morgan";
 import logger from "./utils/logger"; 
 // import session from "cookie-session"
@@ -82,7 +81,7 @@ app.get(
       ErrorCodeEnum.AUTH_INVALID_TOKEN
     );
     return res.status(HTTPSTATUS.OK).json({
-      message: "Hello Subscribe to the channel & share",
+      message: "Hello World! Connected to Task Management API",
     });
   })
 );
