@@ -74,7 +74,7 @@ if (config.NODE_ENV === "development") {
 }
 
 app.get(
-  `/`,
+  `/${BASE_PATH}/health`,
   asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
     throw new BadRequestException(
       "This is a bad request",
