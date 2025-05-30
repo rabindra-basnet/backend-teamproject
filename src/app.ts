@@ -22,9 +22,10 @@ import workspaceRoutes from "./routes/workspace.route";
 import memberRoutes from "./routes/member.route";
 import projectRoutes from "./routes/project.route";
 import taskRoutes from "./routes/task.route";
+import healthRoutes from "./routes/health.routes";
 
 const app = express();
-const BASE_PATH = config.BASE_PATH || "api";
+const BASE_PATH = config.BASE_PATH || "/api";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -73,19 +74,7 @@ if (config.NODE_ENV === "development") {
 app.use(morgan("combined", { stream: logger.stream as any }));
 }
 
-app.get(
-  `${BASE_PATH}/health`,
-  asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
-    // throw new BadRequestException(
-    //   "This is a bad request",
-    //   ErrorCodeEnum.AUTH_INVALID_TOKEN
-    // );
-    return res.status(HTTPSTATUS.OK).json({
-      message: "Hello World! Connected to Task Management API",
-    });
-  })
-);
-
+app.use(`${BASE_PATH}/health`, healthRoutes);
 app.use(`${BASE_PATH}/auth`, authRoutes);
 app.use(`${BASE_PATH}/user`, isAuthenticated, userRoutes);
 app.use(`${BASE_PATH}/workspace`, isAuthenticated, workspaceRoutes);
