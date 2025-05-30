@@ -51,10 +51,11 @@ app.use(
       maxAge: 24 * 60 * 60 * 1000, // 1 day
       secure: config.NODE_ENV === "production", // use HTTPS in production
       httpOnly: true,
-      sameSite: "lax",
+      sameSite: config.NODE_ENV === "production" ? "none" : "lax", // ✅ fix here
     },
   })
 );
+
 
 
 app.use(passport.initialize());
